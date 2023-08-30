@@ -12,4 +12,4 @@ CLASS AND OBJECT DEFINITION:
                DictionaryPage
                AboutPage
 
-
+N:B- Also remember you wil be using a navbar too
