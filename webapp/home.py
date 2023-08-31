@@ -1,10 +1,11 @@
 import justpy as jp
 
 from webapp import layout
+from webapp import page
 
 
-class Home:
-    path = "/"
+class Home(page.Page):
+    path = "/home"
 
     @classmethod
     def serve(cls, req):
@@ -20,4 +21,3 @@ class Home:
          content of a page when looking at its layout. """,
                classes="text-lg")
         return wp
-
